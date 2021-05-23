@@ -85,7 +85,7 @@
 			
 			<div class="copyright">
 				<span>Build by <a href="https://link.s-loer.de/" target="_blank">Sebastian Loer</a></span><br/>
-				<span>LinkTree is a free software. Find the source code on <a class="button" href="https://github.com/digital195/" target="_blank">GitHub</a></span><br/>
+				<span>LinkTree is a free software. Find the source code on <a class="button" href="https://github.com/digital195/linktree" target="_blank">GitHub</a></span><br/>
 				<br/>
 				
 				<?php if (Config::getImprint() != '' && Config::getPrivacy() != '') { ?>
