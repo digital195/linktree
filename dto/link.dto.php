@@ -1,6 +1,8 @@
 <?php
 
   class LinkDto {
+    use \GetSetGo\SetterGetter;
+
     public $id;
 
     public $title;

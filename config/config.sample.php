@@ -1,12 +1,15 @@
 <?php
 	
 	class Config {
+		use \GetSetGo\SetterGetter;
 		
 		private static $hashtag = 'test';
 		private static $user = 'test';
 		private static $text = 'Hey, willkommen auf meiner Test-Seite!';
 		private static $title = 'test';
 		private static $links = [];
+		
+		private static $copyright = true;
 		
 		private static $imprint = '';
 		private static $privacy = '';
@@ -22,45 +25,6 @@
 			array_push(self::$links, new LinkDto(4, 'Twitter', 'https://twitter.com/', 'fa-twitter', date("Y-m-d H:i:s"), date("Y-m-d H:i:s")) );
 		}
 		
-		public static function getHashtag() {
-			return self::$hashtag;
-		}
-		
-		public static function getUser() {
-			return self::$user;
-		}
-		
-		public static function getText() {
-			return self::$text;
-		}
-		
-		public static function getTitle() {
-			return self::$title;
-		}
-		
-		public static function getLinks() {
-			return self::$links;
-		}
-		
-		public static function getBackgroundColors() {
-			return self::$backgroundColors;
-		}
-		
-		public static function getFontColor() {
-			return self::$fontColor;
-		}
-		
-		public static function getLinkColor() {
-			return self::$linkColor;
-		}
-		
-		public static function getImprint() {
-			return self::$imprint;
-		}
-		
-		public static function getPrivacy() {
-			return self::$privacy;
-		}
 	}
 
 ?>

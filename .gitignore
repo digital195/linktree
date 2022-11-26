@@ -1,1 +1,7 @@
 config/config.php
+.idea
+log
+.vscode
+static/favicon.ico
+static/image.png
+static/logo.png

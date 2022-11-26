@@ -44,7 +44,10 @@ Then you only need to give every link you want to create a uniq id, just use a n
 
 Now you should have added a link to your LinkTree.
 
+## Config generator
+A config generator for this application is currently in the work by myself. When it is finished i will add a link that you can use it to create your config.php file.
+
 
 ## Screenshots
 
-![Screenshot #1 Preview](screenshots/preview.png)
+![Screenshot #1 Preview](screenshots/preview_1.png)
